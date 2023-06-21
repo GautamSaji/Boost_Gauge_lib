@@ -1,7 +1,7 @@
 //program menu to change boost_limit
 //create interrupt program to clear psi_max
 //user configurable brightness control
-//move to ads1115
+
 
 
 #include <TFT_eSPI.h>
@@ -14,7 +14,7 @@ Boost_Gauge BoostGauge=Boost_Gauge();
 
 void setup() {
 
-BoostGauge.init();
+BoostGauge.init();  //tft_display, external adc will be initialised in this method.
 BoostGauge.DisplaySplashScreen(3);
 BoostGauge.DisplayMain();
 BoostGauge.Test();
