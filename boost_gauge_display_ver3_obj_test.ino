@@ -5,7 +5,7 @@
 
 
 #include <TFT_eSPI.h>
-#include <spi.h>
+#include <SPI.h>
 #include <Boost_Gauge.h>
 
 bool demo_mode=false;
